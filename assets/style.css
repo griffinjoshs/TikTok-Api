@@ -65,3 +65,20 @@ input, select, textarea {
     padding-left: 30px;  
 }
 
+#profilePic {
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;    
+    padding-top: 20px;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-size: 370px 370px;
+}
+
+#usernameTopDisplay {
+    background-color: white;
+    margin: auto;
+    font-size: 30px;
+    width: 250px;
+}
+
