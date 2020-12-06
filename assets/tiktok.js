@@ -20,10 +20,18 @@ $(document).ready(function () {
             // Username
             $('#usernameDisplay').text('@' + username);
             console.log("Username: " + username)
-            
+
             // Proflie Pic
-            $("#profilePic").src = response.avatar_thumb;
-            console.log(response.avatar_thumb)
+            // Set background image of a div on click of the button
+            $('#profilePic').on({
+                'click': function(){
+                    $('#profilePic').attr('src', response.avatar_larger);
+                    console.log(response.avatar_larger)
+                }
+            });
+            // var imageUrl = response.avatar_larger;
+            // $("#profilePic").css("background-image", "url(" + imageUrl + ")");
+            // console.log(response.avatar_larger)
 
             // NickName
             nickname = $("#nickname").text(response.nickname);
