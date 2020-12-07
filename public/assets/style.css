@@ -1,9 +1,13 @@
 /* body {
-    background-color: black;
+    background-image: url(images/backgrond.jpg);
 } */
 
 h1 {
     color: white;
+}
+
+#username {
+    border-radius: 12px;
 }
 
 #searchContainer {
@@ -50,6 +54,7 @@ input, select, textarea {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;    
     padding-top: 20px;
     padding-left: 30px;
+    background-color: white;
 }
 
 /* #accBox {
